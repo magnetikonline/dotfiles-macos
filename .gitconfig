@@ -1,0 +1,65 @@
+[user]
+	email = peter@magnetikonline.com
+	name = Peter Mescalchin
+
+[core]
+	attributesfile = ~/.gitattributes-global
+	autocrlf = input
+	excludesfile = ~/.gitignore-global
+	pager = less --tabs 4
+	untrackedcache = true
+
+[init]
+	defaultBranch = main
+
+[color]
+	ui = true
+
+[diff]
+	noprefix = true
+	tool = bcompare
+
+[difftool "bcompare"]
+	cmd = /usr/local/bin/bcomp \"$LOCAL\" \"$REMOTE\"
+
+[fetch]
+	prune = true
+
+[grep]
+	extendedregexp = true
+	linenumber = true
+
+[instaweb]
+	httpd = python
+
+[pull]
+	ff = only
+
+[push]
+	default = simple
+
+[alias]
+	adda = add --update
+	adda-cw = -c interactive.diffFilter=\"git diff --color-words\" add --update
+	archive-tgz = archive -v --format=tgz --output=HEAD.tgz HEAD
+	archive-zip = archive -v --format=zip --output=HEAD.zip HEAD
+	ba = branch --all --list --verbose --verbose
+	bv = branch --verbose --verbose
+	da = difftool --dir-diff
+	dac = difftool --cached --dir-diff
+	diffc = diff --color-words=.
+	gr = grep --break --heading
+	ignored = clean -dnX
+	lg = log --decorate=short --graph --pretty=format:\"%C(red)%h%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset) %C(blue)%C(bold)<%an>%C(auto)%d\"
+	lt = ls-tree -r --abbrev=6 --full-tree --long HEAD
+	mergenc = merge --no-commit --no-ff
+	mergesq = merge --squash
+	ras = rebase --autosquash --interactive
+	showc = show --color-words=.
+	showf = show --name-only
+	sl = stash list --pretty=format:\"%C(red)%gd%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset)\"
+	st = status --branch --short
+	yolo = commit --message=\"Update\"
+
+[includeIf "gitdir:~/path/to/work/"]
+	path = ~/.gitconfig-work

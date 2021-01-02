@@ -1,0 +1,73 @@
+{
+	"breadcrumbs.symbolSortOrder": "position",
+
+	"editor.autoClosingBrackets": "never",
+	"editor.autoClosingQuotes": "never",
+	"editor.autoSurround": "never",
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 13,
+	"editor.formatOnPaste": true,
+	"editor.insertSpaces": false,
+	"editor.quickSuggestions": false,
+	"editor.tabSize": 4,
+
+	"explorer.decorations.colors": false,
+	"explorer.openEditors.visible": 0,
+
+	"files.exclude": {
+		".vscode/": true,
+		"**/__pycache__/": true,
+
+		"**/*.css.map": true,
+		"**/*.pyc": true
+	},
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+
+	"outline.showModules": false,
+	"outline.showVariables": false,
+
+	"terminal.integrated.fontFamily": "JetBrains Mono",
+	"terminal.integrated.fontSize": 11,
+
+	"window.zoomLevel": 0,
+
+	"workbench.activityBar.visible": false,
+	"workbench.colorTheme": "Monokai",
+	"workbench.editor.revealIfOpen": true,
+	"workbench.startupEditor": "newUntitledFile",
+
+
+	"go.buildOnSave": "off",
+	"go.enableCodeLens": {
+		"references": false,
+		"runtest": false
+	},
+	"go.lintOnSave": "package",
+	"go.lintTool": "golangci-lint",
+	"go.lintFlags": [
+		"--enable",
+		"goconst,goimports,whitespace"
+	],
+	"go.useLanguageServer": true,
+	"go.vetOnSave": "off",
+
+	"html.autoClosingTags": false,
+
+	"javascript.format.insertSpaceAfterCommaDelimiter": false,
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+
+	"python.analysis.typeCheckingMode": "basic",
+	"python.formatting.provider": "black",
+	"python.languageServer": "Pylance",
+	"python.linting.enabled": true,
+	"python.linting.pylintEnabled": true,
+	"python.pythonPath": "/usr/local/bin/python3",
+	"python.showStartPage": false,
+
+	"[terraform]": {
+		"editor.formatOnSave": true
+	}
+}
