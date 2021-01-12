@@ -6,12 +6,15 @@
 
 ## Highlights
 
-- [`.bash_profile`](.bash_profile) fixing a few annoying macOS toolchain items (`BASH_SILENCE_DEPRECATION_WARNING`, `COPYFILE_DISABLE`) and nicer `ls` colors.
-- `.gitconfig`
+- A [`.bash_profile`](.bash_profile) fixing a few annoying macOS toolchain items, such as:
+	- `BASH_SILENCE_DEPRECATION_WARNING`.
+	- `COPYFILE_DISABLE`.
+	- Nicer `ls` colors.
+- Useful [Bash aliases](.bash_profile#L59-L78).
+- `.gitconfig`:
 	- [aliases](.gitconfig#L41-L62).
 	- Work/personal [profile switching](.gitconfig#L64-L65) based on repository path.
 	- [userdiff](.gitattributes-global) config.
-- Some useful Bash aliases (for me at least) in [`~/.bashrcmagnetik`](.bashrcmagnetik#L48-L80).
 - [Visual Studio Code](https://code.visualstudio.com/) user [settings](app/vscode).
 
 ## Editor font
