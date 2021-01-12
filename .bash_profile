@@ -68,7 +68,7 @@ alias vsc='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/cod
 # utility commands
 alias mag-aws-accountalias='aws iam list-account-aliases --output text --query AccountAliases'
 alias mag-aws-cachedrop='rm -f "$HOME/.aws/cli/cache/"*.json'
-alias mag-aws-whoami='aws sts get-caller-identity | jq'
+alias mag-aws-whoami='aws sts get-caller-identity | jq;echo;aws iam list-account-aliases --output text --query AccountAliases'
 alias mag-curlheader='curl --dump-header - --output /dev/null --silent'
 alias mag-dsstorenuke='find . -type f -name ".DS_Store" -print0 | xargs -0 -I {} -L 1 -- rm -fv "{}"'
 alias mag-gitrebasevsc='EDITOR="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code --wait" git rebase --interactive'
