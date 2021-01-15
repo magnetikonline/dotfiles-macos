@@ -27,11 +27,11 @@
 $ vsc --list-extensions --show-versions
 darkriszty.markdown-table-prettify@3.2.0
 EditorConfig.EditorConfig@0.16.4
-golang.go@0.20.1
-hashicorp.terraform@2.3.0
+golang.go@0.20.2
+hashicorp.terraform@2.5.0
 ms-azuretools.vscode-docker@1.9.0
 ms-python.python@2020.12.424452561
-ms-python.vscode-pylance@2020.12.2
+ms-python.vscode-pylance@2021.1.1
 ms-toolsai.jupyter@2020.12.414227025
 streetsidesoftware.code-spell-checker@1.10.2
 ```
