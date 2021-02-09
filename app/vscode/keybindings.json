@@ -15,7 +15,7 @@
 		"key": "alt+cmd+3",
 		"command": "workbench.action.editorLayoutThreeColumns"
 	},
-	// Cmd+W when closing tabs will defeat closing the entire window when no more tabs remain
+	// [cmd+w] when closing tabs will defeat closing the entire window when no more tabs remain
 	{
 		"key": "cmd+w",
 		"command": "-workbench.action.closeWindow",
@@ -71,7 +71,7 @@
 		"when": "editorTextFocus"
 	},
 	{
-		"key": "shift+cmd+v",
+		"key": "shift+cmd+g",
 		"command": "workbench.view.scm"
 	},
 	{
