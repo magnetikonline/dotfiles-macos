@@ -61,6 +61,7 @@
 
 	"javascript.format.insertSpaceAfterCommaDelimiter": false,
 	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+	"javascript.format.semicolons": "insert",
 
 	"python.analysis.typeCheckingMode": "basic",
 	"python.formatting.provider": "black",
