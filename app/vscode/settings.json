@@ -39,7 +39,7 @@
 
 	"workbench.activityBar.visible": false,
 	"workbench.colorTheme": "Monokai",
-	"workbench.editor.decorations.badges": true,
+	"workbench.editor.decorations.colors": false,
 	"workbench.editor.revealIfOpen": true,
 	"workbench.startupEditor": "newUntitledFile",
 
@@ -73,5 +73,5 @@
 
 	"[terraform]": {
 		"editor.formatOnSave": true
-	}
+	},
 }
