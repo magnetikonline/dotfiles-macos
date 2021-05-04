@@ -53,7 +53,7 @@
 	"go.lintTool": "golangci-lint",
 	"go.lintFlags": [
 		"--enable",
-		"goconst,goimports,whitespace"
+		"exportloopref,goconst,goimports,unconvert,whitespace"
 	],
 	"go.vetOnSave": "off",
 
