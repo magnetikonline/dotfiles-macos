@@ -25,13 +25,15 @@
 
 ```sh
 $ vsc --list-extensions --show-versions
-darkriszty.markdown-table-prettify@3.2.0
+darkriszty.markdown-table-prettify@3.4.0
 EditorConfig.EditorConfig@0.16.4
-golang.go@0.22.1
-hashicorp.terraform@2.5.0
-ms-azuretools.vscode-docker@1.9.1
-ms-python.python@2021.1.502429796
-ms-python.vscode-pylance@2021.2.0
-ms-toolsai.jupyter@2020.12.414227025
+golang.go@0.25.1
+hashicorp.terraform@2.12.1
+ms-azuretools.vscode-docker@1.13.0
+ms-python.python@2021.5.926500501
+ms-python.vscode-pylance@2021.6.1
+ms-toolsai.jupyter@2021.6.999406279
 streetsidesoftware.code-spell-checker@1.10.2
+william-voyek.vscode-nginx@0.7.2
+
 ```
