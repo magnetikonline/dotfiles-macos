@@ -42,12 +42,6 @@ export PATH="$PATH:${GOPATH//://bin:}/bin"
 # install pip packages to $HOME/Library/Python
 export PIP_USER="1"
 
-# Terraform
-export TF_PLUGIN_CACHE_DIR="$HOME/.terraform.d/plugin-cache"
-if [[ ! -d $TF_PLUGIN_CACHE_DIR ]]; then
-	mkdir -p "$TF_PLUGIN_CACHE_DIR"
-fi
-
 
 # init bash_completion
 . /usr/local/etc/profile.d/bash_completion.sh
