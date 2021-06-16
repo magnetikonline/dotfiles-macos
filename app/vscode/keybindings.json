@@ -15,12 +15,6 @@
 		"key": "alt+cmd+3",
 		"command": "workbench.action.editorLayoutThreeColumns"
 	},
-	// [cmd+w] when closing tabs will defeat closing the entire window when no more tabs remain
-	{
-		"key": "cmd+w",
-		"command": "-workbench.action.closeWindow",
-		"when": "!editorIsOpen && !multipleEditorGroups"
-	},
 	{
 		"key": "alt+cmd+x",
 		"command": "workbench.files.action.collapseExplorerFolders"
