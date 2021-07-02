@@ -15,9 +15,6 @@
 	"explorer.decorations.colors": false,
 	"explorer.openEditors.visible": 0,
 
-	"files.associations": {
-		"*.tfvars": "terraform"
-	},
 	"files.exclude": {
 		".vscode/": true,
 		"**/__pycache__/": true,
