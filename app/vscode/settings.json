@@ -71,6 +71,11 @@
 	"python.pythonPath": "/usr/local/bin/python3",
 	"python.showStartPage": false,
 
+	"[python]": {
+		"editor.formatOnPaste": false,
+		"editor.formatOnSaveMode": "file"
+	},
+
 	"[terraform]": {
 		"editor.formatOnSave": true
 	},
