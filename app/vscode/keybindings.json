@@ -1,92 +1,92 @@
 [
 	{
 		"key": "cmd+0",
-		"command": "workbench.action.zoomReset"
+		"command": "workbench.action.zoomReset",
 	},
 	{
 		"key": "alt+cmd+1",
-		"command": "workbench.action.editorLayoutSingle"
+		"command": "workbench.action.editorLayoutSingle",
 	},
 	{
 		"key": "alt+cmd+2",
-		"command": "workbench.action.editorLayoutTwoColumns"
+		"command": "workbench.action.editorLayoutTwoColumns",
 	},
 	{
 		"key": "alt+cmd+3",
-		"command": "workbench.action.editorLayoutThreeColumns"
+		"command": "workbench.action.editorLayoutThreeColumns",
 	},
 	{
 		"key": "alt+cmd+x",
-		"command": "workbench.files.action.collapseExplorerFolders"
+		"command": "workbench.files.action.collapseExplorerFolders",
 	},
 	{
 		"key": "alt+cmd+j",
 		"command": "workbench.files.action.showActiveFileInExplorer",
-		"when": "editorTextFocus"
+		"when": "editorTextFocus",
 	},
 	{
 		"key": "cmd+=",
 		"command": "editor.action.fontZoomIn",
-		"when": "editorTextFocus"
+		"when": "editorTextFocus",
 	},
 	{
 		"key": "cmd+-",
 		"command": "editor.action.fontZoomOut",
-		"when": "editorTextFocus"
+		"when": "editorTextFocus",
 	},
 	{
 		"key": "cmd+0",
 		"command": "editor.action.fontZoomReset",
-		"when": "editorTextFocus"
+		"when": "editorTextFocus",
 	},
 	{
 		"key": "f5",
 		"command": "editor.action.sortLinesAscending",
-		"when": "editorTextFocus"
+		"when": "editorTextFocus",
 	},
 	{
 		"key": "cmd+k cmd+l",
 		"command": "editor.action.transformToLowercase",
-		"when": "editorTextFocus"
+		"when": "editorTextFocus",
 	},
 	{
 		"key": "cmd+k cmd+u",
 		"command": "editor.action.transformToUppercase",
-		"when": "editorTextFocus"
+		"when": "editorTextFocus",
 	},
 	{
 		"key": "alt+cmd+down",
 		"command": "editor.action.revealDefinition",
-		"when": "editorTextFocus && editorHasDefinitionProvider && !isInEmbeddedEditor"
+		"when": "editorTextFocus && editorHasDefinitionProvider && !isInEmbeddedEditor",
 	},
 	{
 		"key": "cmd+r",
 		"command": "workbench.action.gotoSymbol",
-		"when": "editorTextFocus"
+		"when": "editorTextFocus",
 	},
 	{
 		"key": "shift+cmd+g",
-		"command": "workbench.view.scm"
+		"command": "workbench.view.scm",
 	},
 	{
 		"key": "cmd+k cmd+0",
 		"command": "editor.unfoldAll",
-		"when": "editorTextFocus"
+		"when": "editorTextFocus",
 	},
 	{
 		"key": "shift+alt+cmd+[",
 		"command": "moveActiveEditor",
 		"args": {
-			"to": "left"
+			"to": "left",
 		},
-		"when": "editorTextFocus"
+		"when": "editorTextFocus",
 	},
 	{
 		"key": "shift+alt+cmd+]",
 		"command": "moveActiveEditor",
 		"args": {
-			"to": "right"
+			"to": "right",
 		},
-		"when": "editorTextFocus"
-	}
+		"when": "editorTextFocus",
+	},
 ]
