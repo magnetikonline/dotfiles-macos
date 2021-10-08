@@ -9,6 +9,7 @@
 	"editor.fontLigatures": true,
 	"editor.fontSize": 13,
 	"editor.formatOnPaste": true,
+	"editor.guides.bracketPairs": true,
 	"editor.insertSpaces": false,
 	"editor.quickSuggestions": false,
 	"editor.tabSize": 2,
