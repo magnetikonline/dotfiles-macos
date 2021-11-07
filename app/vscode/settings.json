@@ -4,7 +4,6 @@
 	"editor.autoClosingBrackets": "never",
 	"editor.autoClosingQuotes": "never",
 	"editor.autoSurround": "never",
-	"editor.bracketPairColorization.enabled": true,
 	"editor.fontFamily": "JetBrains Mono",
 	"editor.fontLigatures": true,
 	"editor.fontSize": 13,
@@ -63,6 +62,7 @@
 	"javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
 	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
 	"javascript.format.semicolons": "insert",
+	"javascript.preferences.quoteStyle": "single",
 
 	"python.analysis.typeCheckingMode": "basic",
 	"python.formatting.provider": "black",
