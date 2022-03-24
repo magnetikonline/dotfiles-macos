@@ -54,6 +54,7 @@
 	lt = ls-tree -r --abbrev=6 --full-tree --long HEAD
 	mergenc = merge --no-commit --no-ff
 	mergesq = merge --squash
+	pt = push --set-upstream origin HEAD
 	ras = !EDITOR=true git rebase --autosquash --interactive
 	showc = show --color-words=.
 	showf = show --name-only
