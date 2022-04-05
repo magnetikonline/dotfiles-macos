@@ -43,6 +43,11 @@
 	"workbench.startupEditor": "newUntitledFile",
 
 
+	"css.format.enable": true,
+	"css.format.newlineBetweenRules": true,
+	"css.format.newlineBetweenSelectors": true,
+	"css.format.spaceAroundSelectorSeparator": true,
+
 	"go.buildOnSave": "off",
 	"go.enableCodeLens": {
 		"references": false,
@@ -58,6 +63,7 @@
 
 	"html.autoClosingTags": false,
 
+	"javascript.format.enable": true,
 	"javascript.format.insertSpaceAfterCommaDelimiter": false,
 	"javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
 	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
@@ -72,6 +78,11 @@
 		"editor.formatOnPaste": false,
 		"editor.formatOnSaveMode": "file"
 	},
+
+	"scss.format.enable": true,
+	"scss.format.newlineBetweenRules": true,
+	"scss.format.newlineBetweenSelectors": true,
+	"scss.format.spaceAroundSelectorSeparator": true,
 
 	"[terraform]": {
 		"editor.formatOnSave": true
