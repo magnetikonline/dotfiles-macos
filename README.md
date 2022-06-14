@@ -27,15 +27,12 @@
 $ code --list-extensions --show-versions
 darkriszty.markdown-table-prettify@3.6.0
 EditorConfig.EditorConfig@0.16.4
-golang.go@0.31.0
-hashicorp.terraform@2.19.0
-ms-azuretools.vscode-docker@1.19.0
-ms-python.python@2022.0.1814523869
-ms-python.vscode-pylance@2022.2.0
-ms-toolsai.jupyter@2022.1.1001775990
-ms-toolsai.jupyter-keymap@1.0.0
-ms-toolsai.jupyter-renderers@1.0.6
-PKief.material-icon-theme@4.12.1
-streetsidesoftware.code-spell-checker@2.1.6
+golang.go@0.33.1
+hashicorp.terraform@2.23.0
+ms-azuretools.vscode-docker@1.22.0
+ms-python.python@2022.8.0
+ms-python.vscode-pylance@2022.6.10
+PKief.material-icon-theme@4.18.1
+streetsidesoftware.code-spell-checker@2.2.4
 william-voyek.vscode-nginx@0.7.2
 ```
