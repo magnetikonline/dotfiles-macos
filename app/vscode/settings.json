@@ -18,14 +18,11 @@
 	"editor.tabSize": 2,
 
 	"explorer.decorations.colors": false,
+	"explorer.excludeGitIgnore": true,
 	"explorer.openEditors.visible": 0,
 
 	"files.exclude": {
 		".vscode/": true,
-		"**/__pycache__/": true,
-
-		"**/*.css.map": true,
-		"**/*.pyc": true
 	},
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
