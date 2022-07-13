@@ -34,8 +34,6 @@
 	"terminal.integrated.fontFamily": "JetBrains Mono",
 	"terminal.integrated.fontSize": 11,
 
-	"window.zoomLevel": 0,
-
 	"workbench.activityBar.visible": false,
 	"workbench.colorTheme": "Monokai",
 	"workbench.editor.decorations.colors": false,
@@ -77,7 +75,7 @@
 
 	"[python]": {
 		"editor.formatOnPaste": false,
-		"editor.formatOnSaveMode": "file"
+		"editor.formatOnSaveMode": "file",
 	},
 
 	"scss.format.enable": true,
@@ -86,10 +84,10 @@
 	"scss.format.spaceAroundSelectorSeparator": true,
 
 	"[terraform]": {
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
 	},
 
 	"[terraform-vars]": {
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
 	},
 }
