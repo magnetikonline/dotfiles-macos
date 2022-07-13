@@ -27,12 +27,13 @@
 $ code --list-extensions --show-versions
 darkriszty.markdown-table-prettify@3.6.0
 EditorConfig.EditorConfig@0.16.4
-golang.go@0.33.1
+golang.go@0.34.1
 hashicorp.terraform@2.23.0
 ms-azuretools.vscode-docker@1.22.0
-ms-python.python@2022.8.0
-ms-python.vscode-pylance@2022.6.10
-PKief.material-icon-theme@4.18.1
-streetsidesoftware.code-spell-checker@2.2.4
+ms-python.python@2022.10.0
+ms-python.vscode-pylance@2022.7.20
+PKief.material-icon-theme@4.19.0
+redhat.vscode-yaml@1.8.0
+streetsidesoftware.code-spell-checker@2.3.0
 william-voyek.vscode-nginx@0.7.2
 ```

@@ -90,4 +90,14 @@
 	"[terraform-vars]": {
 		"editor.formatOnSave": true,
 	},
+
+	"redhat.telemetry.enabled": false,
+	"yaml.completion": false,
+	"yaml.format.singleQuote": true,
+	"yaml.schemaStore.enable": false,
+	"yaml.validate": true,
+
+	"[yaml]": {
+		"editor.formatOnSave": true,
+	},
 }
