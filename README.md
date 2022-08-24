@@ -24,16 +24,16 @@
 ## Visual Studio Code extensions
 
 ```sh
-$ code --list-extensions --show-versions
+$ vsc --list-extensions --show-versions
 darkriszty.markdown-table-prettify@3.6.0
 EditorConfig.EditorConfig@0.16.4
-golang.go@0.34.1
-hashicorp.terraform@2.23.0
+golang.go@0.35.2
+hashicorp.terraform@2.24.0
 ms-azuretools.vscode-docker@1.22.0
-ms-python.python@2022.10.0
-ms-python.vscode-pylance@2022.7.20
-PKief.material-icon-theme@4.19.0
-redhat.vscode-yaml@1.8.0
-streetsidesoftware.code-spell-checker@2.3.0
+ms-python.python@2022.12.1
+ms-python.vscode-pylance@2022.8.30
+PKief.material-icon-theme@4.20.0
+redhat.vscode-yaml@1.9.1
+streetsidesoftware.code-spell-checker@2.6.0
 william-voyek.vscode-nginx@0.7.2
 ```
