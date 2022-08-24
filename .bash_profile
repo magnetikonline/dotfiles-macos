@@ -66,7 +66,6 @@ alias mag-aws-whoami='aws sts get-caller-identity | jq;echo;aws iam list-account
 alias mag-curlheader='curl --dump-header - --output /dev/null --silent'
 alias mag-dsstorenuke='find . -type f -name ".DS_Store" -print0 | xargs -0 -I {} -L 1 -- rm -fv "{}"'
 alias mag-fileextlist='find . -name .git -prune -o -type f -name "*.*" | sed "s/.*\.//" | sort --unique'
-alias mag-gitrebasevsc='EDITOR="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code --wait" git rebase --interactive'
 alias mag-golangcleanall='go clean -cache -modcache'
 alias mag-gpglistkeys='gpg --list-keys --keyid-format long'
 alias mag-jpgstripexif='jhead -purejpg'

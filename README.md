@@ -12,7 +12,7 @@
 	- Nicer `ls` colors.
 - Useful [Bash aliases](.bash_profile#L53-L72).
 - `.gitconfig`:
-	- [aliases](.gitconfig#L41-L62).
+	- [aliases](.gitconfig#L42-L65).
 	- Work/personal [profile switching](.gitconfig#L64-L65) based on repository path.
 	- [userdiff](.gitattributes-global) config.
 - [Visual Studio Code](https://code.visualstudio.com/) user [settings](app/vscode).

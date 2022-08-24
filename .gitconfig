@@ -61,6 +61,7 @@
 	showf = show --name-only
 	sl = stash list --pretty=format:\"%C(red)%gd%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset)\"
 	st = status --branch --short
+	vscrebase = !EDITOR=\"/Applications/Visual\\ Studio\\ Code.app/Contents/Resources/app/bin/code --wait\" git rebase --interactive
 	yolo = commit --message=\"Update\"
 
 [includeIf "gitdir:~/path/to/work/"]
