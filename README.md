@@ -16,6 +16,7 @@
 	- Work/personal [profile switching](.gitconfig#L64-L65) based on repository path.
 	- [userdiff](.gitattributes-global) config.
 - [Visual Studio Code](https://code.visualstudio.com/) user [settings](app/vscode).
+- [Rectangle](https://github.com/rxhanson/Rectangle) user [settings](app/rectangle/RectangleConfig.json).
 
 ## Editor font
 
