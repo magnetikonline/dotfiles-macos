@@ -15,6 +15,7 @@
 		"other": false,
 		"strings": false,
 	},
+	"editor.stickyScroll.enabled": true,
 	"editor.tabSize": 2,
 
 	"explorer.decorations.colors": false,
@@ -32,7 +33,7 @@
 	"outline.showVariables": false,
 
 	"terminal.integrated.fontFamily": "JetBrains Mono",
-	"terminal.integrated.fontSize": 11,
+	"terminal.integrated.fontSize": 14,
 
 	"workbench.activityBar.visible": false,
 	"workbench.colorTheme": "Monokai",
