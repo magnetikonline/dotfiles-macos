@@ -59,6 +59,10 @@
 		"--enable",
 		"errname,exportloopref,gci,goconst,goimports,unconvert,whitespace",
 	],
+	"go.testFlags": [
+		"-count","1",
+		"-v",
+	],
 	"go.vetOnSave": "off",
 
 	"html.autoClosingTags": false,
