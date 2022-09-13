@@ -88,11 +88,7 @@
 	"scss.format.newlineBetweenSelectors": true,
 	"scss.format.spaceAroundSelectorSeparator": true,
 
-	"[terraform]": {
-		"editor.formatOnSave": true,
-	},
-
-	"[terraform-vars]": {
+	"[terraform][terraform-vars]": {
 		"editor.formatOnSave": true,
 	},
 
