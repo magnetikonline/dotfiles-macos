@@ -27,14 +27,15 @@
 ```sh
 $ vsc --list-extensions --show-versions
 darkriszty.markdown-table-prettify@3.6.0
+dbaeumer.vscode-eslint@2.2.6
 EditorConfig.EditorConfig@0.16.4
 golang.go@0.35.2
 hashicorp.terraform@2.24.0
 ms-azuretools.vscode-docker@1.22.0
-ms-python.python@2022.12.1
-ms-python.vscode-pylance@2022.8.30
+ms-python.python@2022.14.0
+ms-python.vscode-pylance@2022.9.10
 PKief.material-icon-theme@4.20.0
-redhat.vscode-yaml@1.9.1
-streetsidesoftware.code-spell-checker@2.6.0
+redhat.vscode-yaml@1.10.1
+streetsidesoftware.code-spell-checker@2.7.3
 william-voyek.vscode-nginx@0.7.2
 ```
