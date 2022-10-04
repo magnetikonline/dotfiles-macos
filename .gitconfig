@@ -51,7 +51,7 @@
 	gr = grep --break --heading
 	ignored = clean -dnX
 	ignored-nuke = clean -dfX
-	lg = log --decorate=short --graph --pretty=format:\"%C(red)%h%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset) %C(blue)%C(bold)<%an>%C(auto)%d\"
+	lg = log --decorate=short --graph --pretty=format:\"%C(red)%h %C(green)%s %C(yellow)(%ar) %C(blue)%C(bold)<%an>%C(auto)%d\"
 	lt = ls-tree -r --abbrev=6 --full-tree --long HEAD
 	mergenc = merge --no-commit --no-ff
 	mergesq = merge --squash
