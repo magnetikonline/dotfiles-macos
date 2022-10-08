@@ -74,6 +74,10 @@
 	"javascript.format.semicolons": "insert",
 	"javascript.preferences.quoteStyle": "single",
 
+	"markdown.validate.enabled": true,
+	"markdown.validate.fileLinks.enabled": "error",
+	"markdown.validate.fragmentLinks.enabled": "error",
+
 	"python.analysis.typeCheckingMode": "basic",
 	"python.formatting.provider": "black",
 	"python.languageServer": "Pylance",
