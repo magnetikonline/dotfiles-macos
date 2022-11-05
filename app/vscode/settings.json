@@ -57,7 +57,7 @@
 	"go.lintTool": "golangci-lint",
 	"go.lintFlags": [
 		"--enable",
-		"errname,exportloopref,gci,goconst,goimports,unconvert,whitespace",
+		"errname,exportloopref,gci,goconst,gofmt,unconvert,whitespace",
 	],
 	"go.testFlags": [
 		"-count","1",
@@ -74,6 +74,7 @@
 	"javascript.format.semicolons": "insert",
 	"javascript.preferences.quoteStyle": "single",
 
+	"markdown.occurrencesHighlight.enabled": true,
 	"markdown.validate.enabled": true,
 	"markdown.validate.fileLinks.enabled": "error",
 	"markdown.validate.fragmentLinks.enabled": "error",
