@@ -76,13 +76,14 @@
 	"markdown.validate.fragmentLinks.enabled": "error",
 
 	"python.analysis.typeCheckingMode": "basic",
-	"python.formatting.provider": "black",
 	"python.languageServer": "Pylance",
 
 	"[python]": {
 		"editor.defaultFormatter": "ms-python.black-formatter",
 		"editor.formatOnPaste": false,
-		"editor.formatOnSaveMode": "file",
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true,
+		},
 	},
 
 	"scss.format.enable": true,
