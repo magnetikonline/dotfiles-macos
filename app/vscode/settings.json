@@ -49,10 +49,6 @@
 	"css.format.spaceAroundSelectorSeparator": true,
 
 	"go.buildOnSave": "off",
-	"go.enableCodeLens": {
-		"references": false,
-		"runtest": false
-	},
 	"go.lintOnSave": "package",
 	"go.lintTool": "golangci-lint",
 	"go.lintFlags": [
