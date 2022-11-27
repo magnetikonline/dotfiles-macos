@@ -38,6 +38,9 @@
 [push]
 	default = simple
 
+[rebase]
+	autoStash = true
+
 [alias]
 	adda = add --update
 	adda-cw = -c interactive.diffFilter=\"git diff --color-words\" add --update
