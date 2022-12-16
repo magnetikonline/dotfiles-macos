@@ -55,12 +55,12 @@ unalias -a
 
 alias ll='ls -ao'
 
-# application shortcuts
+# aliases - application shortcuts
 alias diff='git diff --no-index'
 alias vsc='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
 alias uuidgen='uuidgen | tr "[:upper:]" "[:lower:]"'
 
-# utility commands
+# aliases - utility commands
 alias mag-aws-accountalias='aws iam list-account-aliases --output text --query AccountAliases'
 alias mag-aws-cachedrop='rm -f "$HOME/.aws/cli/cache/"*.json'
 alias mag-aws-whoami='aws sts get-caller-identity | jq;echo;aws iam list-account-aliases --output text --query AccountAliases'
@@ -69,6 +69,6 @@ alias mag-dsstorenuke='find . -type f -name ".DS_Store" -print0 | xargs -0 -I {}
 alias mag-eslint='npx eslint .'
 alias mag-fileextlist='find . \( -name .git -prune \) -o \( -type f -name "*.*" \) | sed -E "s/^.+\.//" | sort --unique'
 alias mag-golangcleanall='go clean -cache -modcache'
-alias mag-gpglistkeys='gpg --list-keys --keyid-format long'
+alias mag-gpgkeyslist='gpg --list-keys --keyid-format long'
 alias mag-jpgstripexif='jhead -purejpg'
 alias mag-sshgenpublic='ssh-keygen -yf'
