@@ -58,6 +58,7 @@ alias ll='ls -ao'
 # application shortcuts
 alias diff='git diff --no-index'
 alias vsc='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
+alias uuidgen='uuidgen | tr "[:upper:]" "[:lower:]"'
 
 # utility commands
 alias mag-aws-accountalias='aws iam list-account-aliases --output text --query AccountAliases'
