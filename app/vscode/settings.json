@@ -17,6 +17,7 @@
 	},
 	"editor.stickyScroll.enabled": true,
 	"editor.tabSize": 2,
+	"editor.unicodeHighlight.includeComments": true,
 
 	"explorer.decorations.colors": false,
 	"explorer.excludeGitIgnore": true,
