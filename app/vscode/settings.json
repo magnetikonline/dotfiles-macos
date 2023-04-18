@@ -80,11 +80,11 @@
 	"python.languageServer": "Pylance",
 
 	"[python]": {
-		"editor.defaultFormatter": "ms-python.black-formatter",
-		"editor.formatOnPaste": false,
 		"editor.codeActionsOnSave": {
 			"source.organizeImports": true,
 		},
+		"editor.defaultFormatter": "ms-python.black-formatter",
+		"editor.formatOnPaste": false,
 	},
 
 	"scss.format.enable": true,
@@ -99,6 +99,7 @@
 	"redhat.telemetry.enabled": false,
 	"yaml.completion": false,
 	"yaml.format.singleQuote": true,
+	"yaml.hover": false,
 	"yaml.schemaStore.enable": false,
 
 	"[yaml]": {
