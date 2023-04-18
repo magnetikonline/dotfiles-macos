@@ -45,6 +45,11 @@
 		"when": "editorTextFocus",
 	},
 	{
+		"key": "alt+f5",
+		"command": "editor.action.sortLinesDescending",
+		"when": "editorTextFocus",
+	},
+	{
 		"key": "cmd+k cmd+l",
 		"command": "editor.action.transformToLowercase",
 		"when": "editorTextFocus",
