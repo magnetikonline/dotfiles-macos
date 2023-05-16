@@ -59,7 +59,7 @@
 	mergenc = merge --no-commit --no-ff
 	mergesq = merge --squash
 	pt = push --set-upstream origin HEAD
-	ras = !EDITOR=true git rebase --autosquash --interactive
+	ras = !GIT_SEQUENCE_EDITOR=: git rebase --autosquash --interactive
 	showc = show --color-words=.
 	showf = show --name-only
 	sl = stash list --pretty=format:\"%C(red)%gd%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset)\"
