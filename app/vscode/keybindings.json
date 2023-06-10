@@ -16,6 +16,11 @@
 		"command": "workbench.action.editorLayoutThreeColumns",
 	},
 	{
+		"key": "alt+q",
+		"command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+		"when": "!activeEditorGroupEmpty",
+	},
+	{
 		"key": "alt+cmd+x",
 		"command": "workbench.files.action.collapseExplorerFolders",
 	},
