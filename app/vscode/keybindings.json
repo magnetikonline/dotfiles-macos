@@ -99,4 +99,9 @@
 		},
 		"when": "editorTextFocus",
 	},
+	{
+		"key": "cmd+w",
+		"command": "-workbench.action.closeWindow",
+		"when": "!editorIsOpen && !multipleEditorGroups",
+	},
 ]
