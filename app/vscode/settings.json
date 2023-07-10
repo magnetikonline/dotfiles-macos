@@ -71,6 +71,7 @@
 	"javascript.format.semicolons": "insert",
 	"javascript.preferences.quoteStyle": "single",
 
+	"markdown.editor.pasteUrlAsFormattedLink.enabled": true,
 	"markdown.occurrencesHighlight.enabled": true,
 	"markdown.validate.enabled": true,
 	"markdown.validate.fileLinks.enabled": "error",
