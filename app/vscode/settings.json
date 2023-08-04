@@ -63,6 +63,7 @@
 	"go.vetOnSave": "off",
 
 	"html.autoClosingTags": false,
+	"html.format.wrapLineLength": 0,
 
 	"javascript.format.enable": true,
 	"javascript.format.insertSpaceAfterCommaDelimiter": false,
@@ -71,7 +72,7 @@
 	"javascript.format.semicolons": "insert",
 	"javascript.preferences.quoteStyle": "single",
 
-	"markdown.editor.pasteUrlAsFormattedLink.enabled": true,
+	"markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
 	"markdown.occurrencesHighlight.enabled": true,
 	"markdown.validate.enabled": true,
 	"markdown.validate.fileLinks.enabled": "error",
