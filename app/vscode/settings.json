@@ -85,7 +85,7 @@
 			"source.organizeImports": true,
 		},
 		"editor.defaultFormatter": "ms-python.black-formatter",
-		"editor.formatOnPaste": false,
+		"editor.formatOnSave": true,
 	},
 
 	"scss.format.enable": true,
