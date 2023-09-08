@@ -56,7 +56,7 @@
 		"errname,exportloopref,gci,goconst,gofmt,makezero,unconvert,unparam,whitespace",
 	],
 	"go.testFlags": [
-		"-count","1",
+		"-count", "1",
 		"-v",
 	],
 	"go.vetOnSave": "off",
@@ -70,6 +70,12 @@
 	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
 	"javascript.format.semicolons": "insert",
 	"javascript.preferences.quoteStyle": "single",
+
+	"json.format.enable": true,
+	"json.format.keepLines": true,
+	"[json][jsonc]": {
+		"editor.formatOnSave": true,
+	},
 
 	"markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
 	"markdown.occurrencesHighlight.enabled": true,
