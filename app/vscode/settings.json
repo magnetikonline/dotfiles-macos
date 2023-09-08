@@ -21,7 +21,7 @@
 
 	"explorer.decorations.colors": false,
 	"explorer.excludeGitIgnore": true,
-	"explorer.openEditors.visible": 0,
+	"explorer.openEditors.visible": 1,
 
 	"files.exclude": {
 		".vscode/": true,
@@ -79,7 +79,6 @@
 
 	"python.analysis.typeCheckingMode": "basic",
 	"python.languageServer": "Pylance",
-
 	"[python]": {
 		"editor.codeActionsOnSave": {
 			"source.organizeImports": true,
@@ -102,7 +101,6 @@
 	"yaml.format.singleQuote": true,
 	"yaml.hover": false,
 	"yaml.schemaStore.enable": false,
-
 	"[yaml]": {
 		"editor.formatOnSave": true,
 	},
