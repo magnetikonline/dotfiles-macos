@@ -70,6 +70,9 @@
 	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
 	"javascript.format.semicolons": "insert",
 	"javascript.preferences.quoteStyle": "single",
+	"[javascript]": {
+		"editor.formatOnSave": true,
+	},
 
 	"json.format.enable": true,
 	"json.format.keepLines": true,
