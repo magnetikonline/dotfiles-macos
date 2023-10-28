@@ -63,6 +63,7 @@
 	"go.vetOnSave": "off",
 
 	"html.autoClosingTags": false,
+	"html.format.wrapAttributes": "preserve",
 	"html.format.wrapLineLength": 0,
 
 	"javascript.format.enable": true,
