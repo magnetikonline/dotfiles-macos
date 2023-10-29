@@ -17,7 +17,12 @@
 	},
 	"editor.stickyScroll.enabled": true,
 	"editor.tabSize": 2,
+
+	"editor.unicodeHighlight.ambiguousCharacters": true,
 	"editor.unicodeHighlight.includeComments": true,
+	"editor.unicodeHighlight.includeStrings": true,
+	"editor.unicodeHighlight.invisibleCharacters": true,
+	"editor.unicodeHighlight.nonBasicASCII": true,
 
 	"explorer.decorations.colors": false,
 	"explorer.excludeGitIgnore": true,
