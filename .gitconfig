@@ -52,7 +52,7 @@
 	dac = difftool --cached --dir-diff
 	diffc = diff --color-words=.
 	gr = grep --break --heading
-	ignored = !git clean -X --dry-run "$(git rev-parse --show-toplevel)"
+	ignored = !git clean -X --dry-run --force --force "$(git rev-parse --show-toplevel)"
 	ignored-nuke = !git clean -X --force --force "$(git rev-parse --show-toplevel)"
 	lg = log --decorate=short --graph --pretty=format:\"%C(red)%h %C(green)%s %C(yellow)(%ar) %C(blue)%C(bold)<%an>%C(auto)%d\"
 	lt = ls-tree -r --abbrev=6 --full-tree --long HEAD
