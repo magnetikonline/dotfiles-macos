@@ -18,7 +18,7 @@
 	{
 		"key": "alt+q",
 		"command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
-		"when": "!activeEditorGroupEmpty",
+		"when": "editorTextFocus && !activeEditorGroupEmpty",
 	},
 	{
 		"key": "alt+cmd+x",
