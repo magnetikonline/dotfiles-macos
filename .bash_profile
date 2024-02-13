@@ -57,15 +57,15 @@ alias ll='ls -ao'
 
 # aliases - application shortcuts
 alias diff='git diff --no-index'
-alias vsc='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
 alias uuidgen='uuidgen | tr "[:upper:]" "[:lower:]"'
+alias vsc='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
 
 # aliases - utility commands
 alias mag-aws-accountalias='aws iam list-account-aliases --output text --query AccountAliases'
 alias mag-aws-cachedrop='rm "$HOME/.aws/cli/cache/"*.json'
 alias mag-aws-whoami='(
-aws sts get-caller-identity | jq;echo
-aws iam list-account-aliases --output text --query AccountAliases
+echo "ARN: $(aws sts get-caller-identity --output text --query Arn)";
+echo "Account alias: $(aws iam list-account-aliases --output text --query AccountAliases)"
 )'
 alias mag-curlheader='curl --dump-header - --output /dev/null --silent'
 alias mag-dsstorenuke='find . -type f -name ".DS_Store" -print0 | xargs -0 -I {} -L 1 -- rm -fv "{}"'
