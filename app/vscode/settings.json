@@ -104,8 +104,7 @@
 	},
 
 	"scss.format.enable": true,
-	"scss.format.newlineBetweenRules": true,
-	"scss.format.newlineBetweenSelectors": true,
+	"scss.format.newlineBetweenSelectors": false,
 	"scss.format.preserveNewLines": false,
 	"scss.format.spaceAroundSelectorSeparator": true,
 
