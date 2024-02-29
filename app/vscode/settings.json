@@ -15,7 +15,6 @@
 		"other": "off",
 		"strings": "off",
 	},
-	"editor.stickyScroll.enabled": true,
 	"editor.tabSize": 2,
 
 	"editor.unicodeHighlight.ambiguousCharacters": true,
