@@ -41,7 +41,7 @@
 	"terminal.integrated.fontSize": 14,
 
 	"workbench.activityBar.location": "top",
-	"workbench.colorTheme": "Monokai",
+	"workbench.colorTheme": "Default Dark Modern",
 	"workbench.editor.decorations.colors": false,
 	"workbench.editor.pinnedTabsOnSeparateRow": true,
 	"workbench.editor.revealIfOpen": true,
@@ -68,6 +68,7 @@
 	"go.vetOnSave": "off",
 
 	"html.autoClosingTags": false,
+	"html.autoCreateQuotes": false,
 	"html.format.wrapAttributes": "preserve",
 	"html.format.wrapLineLength": 0,
 
