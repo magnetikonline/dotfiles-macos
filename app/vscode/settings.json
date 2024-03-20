@@ -59,7 +59,7 @@
 	"go.lintTool": "golangci-lint",
 	"go.lintFlags": [
 		"--enable",
-		"errname,exportloopref,gci,goconst,godot,gofmt,makezero,unconvert,unparam,whitespace",
+		"errname,gci,goconst,godot,gofmt,makezero,unconvert,unparam,whitespace",
 	],
 	"go.testFlags": [
 		"-count", "1",
