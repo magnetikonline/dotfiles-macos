@@ -17,9 +17,9 @@
 
 [diff]
 	noprefix = true
-	tool = bcompare
+	tool = bcomp
 
-[difftool "bcompare"]
+[difftool "bcomp"]
 	cmd = /usr/local/bin/bcomp \"$LOCAL\" \"$REMOTE\"
 
 [fetch]
