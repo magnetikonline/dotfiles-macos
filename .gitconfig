@@ -6,7 +6,7 @@
 	attributesfile = ~/.gitattributes-global
 	autocrlf = input
 	excludesfile = ~/.gitignore-global
-	pager = less --tabs 4
+	pager = less --tabs 2
 	untrackedcache = true
 
 [init]
@@ -62,6 +62,7 @@
 	ras = rebase --autosquash
 	ras-br = !git rebase --autosquash $(git merge-base main HEAD)
 	showc = show --color-words=.
+	showd = difftool --dir-diff HEAD~ HEAD
 	showf = show --name-only
 	sl = stash list --pretty=format:\"%C(red)%gd%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset)\"
 	st = status --branch --short
