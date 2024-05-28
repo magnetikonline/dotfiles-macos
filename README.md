@@ -20,24 +20,24 @@
 
 ## Editor font
 
-[JetBrains Mono](https://github.com/JetBrains/JetBrainsMono), configured with [Visual Studio Code](app/vscode/settings.json#L7-L9).
+[GitHub Monaspace](https://github.com/githubnext/monaspace), configured with [Visual Studio Code](app/vscode/settings.json#L7-L9).
 
 ## Visual Studio Code extensions
 
 ```sh
 $ vsc --list-extensions --show-versions
 darkriszty.markdown-table-prettify@3.6.0
-dbaeumer.vscode-eslint@2.2.6
-EditorConfig.EditorConfig@0.16.4
-golang.go@0.36.0
-hashicorp.terraform@2.24.3
-ms-azuretools.vscode-docker@1.22.0
-ms-python.black-formatter@2022.7.13061128
-ms-python.isort@2022.5.13121010
-ms-python.python@2022.18.1
-ms-python.vscode-pylance@2022.11.10
-PKief.material-icon-theme@4.22.0
-redhat.vscode-yaml@1.10.1
-streetsidesoftware.code-spell-checker@2.11.0
+dbaeumer.vscode-eslint@2.4.4
+editorconfig.editorconfig@0.16.4
+golang.go@0.41.4
+hashicorp.terraform@2.30.1
+ms-azuretools.vscode-docker@1.29.1
+ms-python.black-formatter@2024.2.0
+ms-python.isort@2023.10.1
+ms-python.python@2024.6.0
+ms-python.vscode-pylance@2024.5.1
+pkief.material-icon-theme@5.3.0
+redhat.vscode-yaml@1.14.0
+streetsidesoftware.code-spell-checker@3.0.1
 william-voyek.vscode-nginx@0.7.2
 ```
