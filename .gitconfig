@@ -60,14 +60,14 @@
 	mergesq = merge --squash
 	pt = push --set-upstream origin HEAD
 	ras = rebase --autosquash
-	ras-br = !git rebase --autosquash $(git merge-base main HEAD)
+	ras-br = !git rebase --autosquash $(git merge-base --fork-point main)
 	showc = show --color-words=.
 	showd = difftool --dir-diff HEAD~ HEAD
 	showf = show --name-only
 	sl = stash list --pretty=format:\"%C(red)%gd%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset)\"
 	st = status --branch --short
 	vscrebase = !EDITOR=\"/Applications/Visual\\ Studio\\ Code.app/Contents/Resources/app/bin/code --wait\" git rebase --interactive
-	vscrebase-br = !EDITOR=\"/Applications/Visual\\ Studio\\ Code.app/Contents/Resources/app/bin/code --wait\" git rebase --interactive $(git merge-base main HEAD)
+	vscrebase-br = !EDITOR=\"/Applications/Visual\\ Studio\\ Code.app/Contents/Resources/app/bin/code --wait\" git rebase --interactive $(git merge-base --fork-point main)
 	yolo = commit --message=\"Update\"
 
 [includeIf "gitdir:~/path/to/work/"]
