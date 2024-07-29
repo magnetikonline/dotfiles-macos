@@ -114,6 +114,7 @@
 
 	"redhat.telemetry.enabled": false,
 	"yaml.completion": false,
+	"yaml.format.printWidth": 5000,
 	"yaml.format.singleQuote": true,
 	"yaml.hover": false,
 	"yaml.schemaStore.enable": false,
