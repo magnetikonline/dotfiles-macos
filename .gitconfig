@@ -51,6 +51,7 @@
 	da = difftool --dir-diff
 	dac = difftool --cached --dir-diff
 	diffc = diff --color-words=.
+	fixup = commit --fixup
 	gr = grep --break --heading
 	ignored = !git clean -X --dry-run --force --force "$(git rev-parse --show-toplevel)"
 	ignored-nuke = !git clean -X --force --force "$(git rev-parse --show-toplevel)"
