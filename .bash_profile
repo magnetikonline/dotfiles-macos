@@ -58,7 +58,7 @@ alias ll='ls -ao'
 # aliases - application shortcuts
 alias diff='git diff --no-index'
 alias uuidgen='uuidgen | tr "[:upper:]" "[:lower:]"'
-alias vsc='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
+alias vsc='if [[ $(git rev-parse --is-inside-work-tree 2>/dev/null) == "true" ]]; then cd "$(git rev-parse --show-toplevel)"; fi;/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
 
 # aliases - utility commands
 alias mag-aws-accountalias='aws iam list-account-aliases --output text --query AccountAliases'
