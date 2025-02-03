@@ -1,0 +1,3 @@
+bind main <Ctrl-f> <git commit --fixup=%(commit)
+bind diff <Ctrl-f> <git commit --fixup=%(commit)
+color cursor black green
