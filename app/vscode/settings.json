@@ -55,6 +55,8 @@
 	"css.format.newlineBetweenSelectors": true,
 	"css.format.spaceAroundSelectorSeparator": true,
 
+	"editorconfig.showMenuEntry": false,
+
 	"go.lintOnSave": "package",
 	"go.lintTool": "golangci-lint",
 	"go.lintFlags": [
