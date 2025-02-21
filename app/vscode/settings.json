@@ -1,6 +1,8 @@
 {
 	"breadcrumbs.symbolSortOrder": "position",
 
+	"chat.commandCenter.enabled": false,
+
 	"editor.autoClosingBrackets": "never",
 	"editor.autoClosingQuotes": "never",
 	"editor.autoSurround": "never",
@@ -46,6 +48,7 @@
 	"workbench.editor.pinnedTabsOnSeparateRow": true,
 	"workbench.editor.revealIfOpen": true,
 	"workbench.iconTheme": "material-icon-theme",
+	"workbench.navigationControl.enabled": false,
 	"workbench.startupEditor": "newUntitledFile",
 	"workbench.tree.enableStickyScroll": true,
 
