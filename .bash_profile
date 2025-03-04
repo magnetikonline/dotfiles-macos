@@ -35,6 +35,7 @@ export COPYFILE_DISABLE="1"
 export TAR_WRITER_OPTIONS="compression-level=9"
 
 # Golang
+export GOTOOLCHAIN="local"
 export GOPATH="$HOME/go"
 export PATH="$PATH:${GOPATH//://bin:}/bin"
 
