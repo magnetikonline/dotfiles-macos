@@ -40,7 +40,7 @@ export GOPATH="$HOME/go"
 export PATH="$PATH:${GOPATH//://bin:}/bin"
 
 # Python
-# install pip packages to $HOME/Library/Python
+# install pip packages to $HOME/Library/Python/VERSION
 export PIP_USER="1"
 
 
