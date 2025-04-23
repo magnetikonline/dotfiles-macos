@@ -60,7 +60,17 @@ alias ll='ls -ao'
 alias diff='git diff --no-index'
 alias pip='pip3'
 alias uuidgen='uuidgen | tr "[:upper:]" "[:lower:]"'
-alias vsc='if [[ (! -f $1) && ($(git rev-parse --is-inside-work-tree 2>/dev/null) == "true") ]]; then cd "$(git rev-parse --show-toplevel)"; fi;/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
+
+function vsc {
+	local vscPath="$1"
+	if [[ (! -f $vscPath) && ($vscPath != ".") ]]; then
+		if [[ ($(git rev-parse --is-inside-work-tree 2>/dev/null) == "true") ]]; then
+			vscPath=$(git rev-parse --show-toplevel)
+		fi
+	fi
+
+	/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code "$vscPath"
+}
 
 # aliases - utility commands
 alias mag-aws-accountalias='aws iam list-account-aliases --output text --query AccountAliases'
