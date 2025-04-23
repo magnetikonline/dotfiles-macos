@@ -58,6 +58,7 @@ alias ll='ls -ao'
 
 # aliases - application shortcuts
 alias diff='git diff --no-index'
+alias pip='pip3'
 alias uuidgen='uuidgen | tr "[:upper:]" "[:lower:]"'
 alias vsc='if [[ (! -f $1) && ($(git rev-parse --is-inside-work-tree 2>/dev/null) == "true") ]]; then cd "$(git rev-parse --show-toplevel)"; fi;/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
 
