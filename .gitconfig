@@ -44,6 +44,9 @@
 [stash]
 	showPatch = true
 
+[tag]
+	sort = -v:refname
+
 [alias]
 	adda = add --update
 	adda-cw = -c interactive.diffFilter=\"git diff --color-words\" add --update
