@@ -49,6 +49,7 @@
 	"workbench.editor.revealIfOpen": true,
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.navigationControl.enabled": false,
+	"workbench.secondarySideBar.defaultVisibility": "hidden",
 	"workbench.startupEditor": "newUntitledFile",
 	"workbench.tree.enableStickyScroll": true,
 
