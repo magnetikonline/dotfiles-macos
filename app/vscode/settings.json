@@ -115,13 +115,15 @@
 	"scss.format.preserveNewLines": false,
 	"scss.format.spaceAroundSelectorSeparator": true,
 
+	"terraform.mcp.server.enable": false,
 	"[terraform][terraform-vars]": {
 		"editor.formatOnSave": true,
 	},
 
 	"redhat.telemetry.enabled": false,
 	"yaml.completion": false,
-	"yaml.format.printWidth": 5000,
+	"yaml.format.printWidth": 10000,
+	"yaml.format.proseWrap": "never",
 	"yaml.format.singleQuote": true,
 	"yaml.hover": false,
 	"yaml.schemaStore.enable": false,
