@@ -15,7 +15,7 @@ PS1='\[\033[32m\]\u\[\033[00m\]:\[\033[94m\]\w\[\033[00m\]$(__git_ps1 "\[\033[35
 
 # display current working directory in iTerm2 as window title
 if [[ -n $ITERM_SESSION_ID ]]; then
-	PS1="$PS1\[\033]0;\w\007\]"
+	PS1=$PS1'\[\033]0;\w\007\]'
 fi
 
 
@@ -76,8 +76,8 @@ function vsc {
 alias mag-aws-accountalias='aws iam list-account-aliases --output text --query AccountAliases'
 alias mag-aws-cachedrop='rm "$HOME/.aws/cli/cache/"*.json'
 alias mag-aws-whoami='(
-echo "ARN: $(aws sts get-caller-identity --output text --query Arn)";
-echo "Account alias: $(aws iam list-account-aliases --output text --query AccountAliases)"
+echo -e "\n\033[0;31mARN:\033[0m $(aws sts get-caller-identity --output text --query Arn)";
+echo -e "\033[0;32mAccount alias:\033[0m $(aws iam list-account-aliases --output text --query AccountAliases)\n"
 )'
 alias mag-curlheader='curl --dump-header - --output /dev/null --silent'
 alias mag-dsstorenuke='find . -type f -name ".DS_Store" -print0 | xargs -0 -I {} -L 1 -- rm -fv "{}"'
