@@ -62,9 +62,10 @@ alias pip='pip3'
 alias uuidgen='uuidgen | tr "[:upper:]" "[:lower:]"'
 
 function vsc {
-	local vscPath="$1"
-	if [[ (! -f $vscPath) && ($vscPath != ".") ]]; then
+	local vscPath=$1
+	if [[ ($vscPath != ".") && (! -f $vscPath) && (! -d .git) ]]; then
 		if [[ ($(git rev-parse --is-inside-work-tree 2>/dev/null) == "true") ]]; then
+			echo "Info: opening Visual Studio Code at Git repository root"
 			vscPath=$(git rev-parse --show-toplevel)
 		fi
 	fi
