@@ -127,7 +127,8 @@
 	"yaml.format.singleQuote": true,
 	"yaml.hover": false,
 	"yaml.schemaStore.enable": false,
-	"[yaml]": {
+	"[yaml][dockercompose][github-actions-workflow]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml",
 		"editor.formatOnSave": true,
 	},
 }
