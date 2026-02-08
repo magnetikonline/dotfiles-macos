@@ -63,7 +63,7 @@
 	"editorconfig.showMenuEntry": false,
 
 	"go.lintOnSave": "package",
-	"go.lintTool": "golangci-lint",
+	"go.lintTool": "golangci-lint-v2",
 	"go.lintFlags": [
 		"--enable",
 		"errname,gci,goconst,godot,gofmt,makezero,unconvert,unparam,whitespace",
