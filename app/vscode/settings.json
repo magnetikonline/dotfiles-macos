@@ -100,7 +100,7 @@
 	"markdown.validate.fileLinks.enabled": "error",
 	"markdown.validate.fragmentLinks.enabled": "error",
 
-	"python.analysis.typeCheckingMode": "basic",
+	"python.analysis.typeCheckingMode": "standard",
 	"python.languageServer": "Pylance",
 	"[python]": {
 		"editor.codeActionsOnSave": {
