@@ -48,14 +48,15 @@
 	sort = -v:refname
 
 [alias]
-	adda = add --update
-	adda-cw = -c interactive.diffFilter=\"git diff --color-words\" add --update
+	adda = add --update --patch
 	archive-tgz = archive -v --format=tgz --output=HEAD.tgz HEAD
 	archive-zip = archive -v --format=zip --output=HEAD.zip HEAD
-	ba = branch --all --list --verbose --verbose
+	ba = branch --verbose --verbose
+	baa = branch --all --verbose --verbose
 	bv = branch --verbose --verbose
 	da = difftool --dir-diff
 	dac = difftool --cached --dir-diff
+	diff-us = diff @{upstream} HEAD
 	diffc = diff --color-words=.
 	fixup = commit --fixup
 	gr = grep --break --heading
