@@ -66,7 +66,7 @@
 	"go.lintTool": "golangci-lint-v2",
 	"go.lintFlags": [
 		"--enable",
-		"copyloopvar,dupword,errname,gci,goconst,godot,gofmt,makezero,unconvert,unparam,whitespace",
+		"dupword,errname,gci,goconst,godot,gofmt,makezero,modernize,unconvert,unparam,whitespace",
 	],
 	"go.testFlags": [
 		"-count", "1",
@@ -96,9 +96,11 @@
 	},
 
 	"markdown.occurrencesHighlight.enabled": true,
+	"markdown.validate.duplicateLinkDefinitions.enabled": "error",
 	"markdown.validate.enabled": true,
 	"markdown.validate.fileLinks.enabled": "error",
 	"markdown.validate.fragmentLinks.enabled": "error",
+	"markdown.validate.unusedLinkDefinitions.enabled": "error",
 
 	"python.analysis.typeCheckingMode": "standard",
 	"python.languageServer": "Pylance",
