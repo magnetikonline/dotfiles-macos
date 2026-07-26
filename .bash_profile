@@ -57,7 +57,8 @@ unalias -a
 alias ll='ls -ao'
 
 # aliases - application shortcuts
-alias diff='git diff --no-index'
+alias diff='git diff --no-index --'
+alias diffc='git diff --color-words=. --no-index --'
 alias pip='pip3'
 alias uuidgen='uuidgen | tr "[:upper:]" "[:lower:]"'
 
