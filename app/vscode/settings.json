@@ -36,6 +36,8 @@
 	"files.trimFinalNewlines": true,
 	"files.trimTrailingWhitespace": true,
 
+	"git.openRepositoryInParentFolders": "never",
+
 	"outline.showModules": false,
 	"outline.showVariables": false,
 
@@ -76,6 +78,7 @@
 
 	"html.autoClosingTags": false,
 	"html.autoCreateQuotes": false,
+	"html.format.maxPreserveNewLines": 1,
 	"html.format.wrapAttributes": "preserve",
 	"html.format.wrapLineLength": 0,
 
