@@ -1,1 +1,7 @@
+include "/usr/local/share/nano/*.nanorc"
+
+set mouse
 set tabsize 2
+
+bind M-f nextword main
+bind M-b prevword main
