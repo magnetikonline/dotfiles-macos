@@ -10,10 +10,10 @@
 	- `BASH_SILENCE_DEPRECATION_WARNING`.
 	- `COPYFILE_DISABLE`.
 	- Nicer `ls` colors.
-- Useful [Bash aliases](.bash_profile#L53-L72).
+- Useful [Bash aliases](.bash_profile#L54-L93).
 - `.gitconfig`:
-	- [aliases](.gitconfig#L42-L65).
-	- Work/personal [profile switching](.gitconfig#L64-L65) based on repository path.
+	- [aliases](.gitconfig#L53-L82).
+	- Work/personal [profile switching](.gitconfig#L84-L85) based on repository path.
 	- [userdiff](.gitattributes-global) config.
 - [Visual Studio Code](https://code.visualstudio.com/) user [settings](app/vscode).
 - [Rectangle](https://github.com/rxhanson/Rectangle) user [settings](app/rectangle/RectangleConfig.json).
