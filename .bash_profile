@@ -22,7 +22,7 @@ fi
 # environment variables
 # mute 'zsh is now default shell' message when opening /bin/bash session
 export BASH_SILENCE_DEPRECATION_WARNING="1"
-export EDITOR="/usr/bin/nano"
+export EDITOR="/usr/local/bin/nano"
 export HISTCONTROL="ignoredups"
 
 # ls
@@ -48,7 +48,7 @@ export PIP_USER="1"
 . /usr/local/etc/profile.d/bash_completion.sh
 
 # AWS CLI tools completion
-complete -C /usr/local/bin/aws_completer aws
+complete -C /usr/local/aws-cli/aws_completer aws
 
 
 # aliases
