@@ -6,6 +6,8 @@
 	attributesfile = ~/.gitattributes-global
 	autocrlf = input
 	excludesfile = ~/.gitignore-global
+	# git fsmonitor--daemon status
+	fsmonitor = true
 	pager = less --tabs 2
 	untrackedcache = true
 
@@ -69,6 +71,7 @@
 	pt = push --set-upstream origin HEAD
 	ras = rebase --autosquash
 	ras-br = !git rebase --autosquash $(git merge-base --fork-point main)
+	rbm = !git fetch origin main:main && git rebase main
 	showc = show --color-words=.
 	showd = difftool --dir-diff HEAD~ HEAD
 	showf = show --name-only
