@@ -1,3 +1,6 @@
 bind main <Ctrl-f> <git commit --fixup=%(commit)
 bind diff <Ctrl-f> <git commit --fixup=%(commit)
+bind main <Ctrl-r> >git rebase --autosquash %(commit)
+bind diff <Ctrl-r> >git rebase --autosquash %(commit)
+
 color cursor black green
