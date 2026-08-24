@@ -82,9 +82,9 @@ echo -e "\n\033[0;31mARN:\033[0m $(aws sts get-caller-identity --output text --q
 echo -e "\033[0;32mAccount alias:\033[0m $(aws iam list-account-aliases --output text --query AccountAliases)\n"
 )'
 alias mag-curlheader='curl --dump-header - --output /dev/null --silent'
-alias mag-dsstorenuke='find . -type f -name ".DS_Store" -print0 | xargs -0 -I {} -L 1 -- rm -fv "{}"'
+alias mag-dsstore-nuke='find . -type f -name .DS_Store -print -exec rm -f "{}" \;'
 alias mag-eslint='npx eslint .'
-alias mag-fileextlist='find . \( -type d -name .git -prune \) -o \( -type f -name "*.*" \) | sed -E "s/.*\.//" | sort --unique'
+alias mag-fileext-list='find . \( -type d -name .git -prune \) -o \( -type f -name "*.*" \) | sed -E "s/.*\.//" | sort --unique'
 alias mag-github-pr-url='[[ $(git remote get-url --push origin) =~ ^git@github\.com:(.+)\.git$ ]] && open /Applications/Google\ Chrome.app "https://github.com/${BASH_REMATCH[1]}/pull/new/$(git branch --show-current)"'
 alias mag-gitroot='cd "$(git rev-parse --show-toplevel)"'
 alias mag-golangcleanall='go clean -cache -modcache'
