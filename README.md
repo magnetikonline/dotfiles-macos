@@ -14,7 +14,7 @@
 - `.gitconfig`:
 	- [aliases](.gitconfig#L53-L82).
 	- Work/personal [profile switching](.gitconfig#L84-L85) based on repository path.
-	- [userdiff](.gitattributes-global) config.
+	- [userdiff](.gitattributes-global) configuration.
 - [Visual Studio Code](https://code.visualstudio.com/) user [settings](app/vscode).
 - [Rectangle](https://github.com/rxhanson/Rectangle) user [settings](app/rectangle/RectangleConfig.json).
 
