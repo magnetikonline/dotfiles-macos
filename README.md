@@ -20,24 +20,22 @@
 
 ## Editor font
 
-[GitHub Monaspace](https://github.com/githubnext/monaspace), configured with [Visual Studio Code](app/vscode/settings.json#L7-L9).
+[GitHub Monaspace](https://github.com/githubnext/monaspace), configured with [Visual Studio Code](app/vscode/settings.json#L9-L10).
 
 ## Visual Studio Code extensions
 
 ```sh
-$ vsc --list-extensions --show-versions
-darkriszty.markdown-table-prettify@3.6.0
-dbaeumer.vscode-eslint@2.4.4
-editorconfig.editorconfig@0.16.4
-golang.go@0.41.4
-hashicorp.terraform@2.30.1
-ms-azuretools.vscode-docker@1.29.1
-ms-python.black-formatter@2024.2.0
-ms-python.isort@2023.10.1
-ms-python.python@2024.6.0
-ms-python.vscode-pylance@2024.5.1
-pkief.material-icon-theme@5.3.0
-redhat.vscode-yaml@1.14.0
-streetsidesoftware.code-spell-checker@3.0.1
-william-voyek.vscode-nginx@0.7.2
+$ vsc --list-extensions
+dbaeumer.vscode-eslint
+editorconfig.editorconfig
+ms-python.black-formatter
+ms-python.debugpy
+ms-python.isort
+ms-python.python
+ms-python.vscode-pylance
+ms-python.vscode-python-envs
+pkief.material-icon-theme
+redhat.vscode-yaml
+streetsidesoftware.code-spell-checker
+tamasfe.even-better-toml
 ```
