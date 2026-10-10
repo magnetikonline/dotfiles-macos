@@ -3,13 +3,13 @@
 	name = Peter Mescalchin
 
 [core]
-	attributesfile = ~/.gitattributes-global
+	attributesFile = ~/.gitattributes-global
 	autocrlf = input
-	excludesfile = ~/.gitignore-global
+	excludesFile = ~/.gitignore-global
 	# git fsmonitor--daemon status
 	fsmonitor = true
 	pager = less --tabs 2
-	untrackedcache = true
+	untrackedCache = true
 
 [init]
 	defaultBranch = main
@@ -18,7 +18,7 @@
 	ui = true
 
 [diff]
-	noprefix = true
+	noPrefix = true
 	tool = bcomp
 
 [difftool "bcomp"]
@@ -28,8 +28,8 @@
 	prune = true
 
 [grep]
-	extendedregexp = true
-	linenumber = true
+	extendedRegexp = true
+	lineNumber = true
 
 [instaweb]
 	httpd = python
