@@ -6,7 +6,7 @@ umask 022
 . /usr/local/git/contrib/completion/git-prompt.sh
 
 
-# colored shell prompt including Git branch details
+# shell prompt with Git repository status
 GIT_PS1_SHOWDIRTYSTATE=:
 GIT_PS1_SHOWSTASHSTATE=:
 GIT_PS1_SHOWUNTRACKEDFILES=:
