@@ -7,7 +7,7 @@
 	"editor.autoClosingQuotes": "never",
 	"editor.autoSurround": "never",
 	"editor.fontFamily": "Monaspace Neon",
-	"editor.fontLigatures": "'calt','liga','ss01','ss02','ss03','ss04','ss05','ss06','ss07','ss08','ss09','ss10'",
+	"editor.fontLigatures": "'calt','liga','ss01','ss02','ss03','ss04','ss05','ss06','ss07','ss08','ss09'",
 	"editor.fontSize": 13,
 	"editor.formatOnPaste": true,
 	"editor.guides.bracketPairs": true,
@@ -41,11 +41,13 @@
 	"outline.showModules": false,
 	"outline.showVariables": false,
 
+	"security.workspace.trust.banner": "never",
+
 	"terminal.integrated.fontFamily": "Monaspace Neon",
 	"terminal.integrated.fontSize": 13,
 
-	"workbench.activityBar.location": "top",
-	"workbench.colorTheme": "Default Dark Modern",
+	"workbench.activityBar.location": "hidden",
+	"workbench.colorTheme": "Dark 2026",
 	"workbench.editor.decorations.colors": false,
 	"workbench.editor.empty.hint": "hidden",
 	"workbench.editor.pinnedTabsOnSeparateRow": true,
@@ -121,7 +123,6 @@
 	"scss.format.maxPreserveNewLines": 2,
 	"scss.format.spaceAroundSelectorSeparator": true,
 
-	"terraform.mcp.server.enable": false,
 	"[terraform][terraform-vars]": {
 		"editor.formatOnSave": true,
 	},
