@@ -18,6 +18,7 @@
 		"strings": "off",
 	},
 	"editor.tabSize": 2,
+	"editor.wordWrapIndicator": true,
 
 	"editor.unicodeHighlight.ambiguousCharacters": true,
 	"editor.unicodeHighlight.includeComments": true,
@@ -57,6 +58,8 @@
 	"workbench.secondarySideBar.defaultVisibility": "hidden",
 	"workbench.startupEditor": "newUntitledFile",
 	"workbench.tree.enableStickyScroll": true,
+
+	"window.density.layout": "compact",
 
 
 	"css.format.enable": true,
