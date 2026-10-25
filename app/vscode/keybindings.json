@@ -2,6 +2,7 @@
 	{
 		"key": "cmd+0",
 		"command": "workbench.action.zoomReset",
+		"when": "!editorTextFocus",
 	},
 	{
 		"key": "alt+cmd+1",
@@ -77,12 +78,12 @@
 	{
 		"key": "alt+cmd+down",
 		"command": "editor.action.revealDefinition",
-		"when": "editorTextFocus && editorHasDefinitionProvider && !isInEmbeddedEditor",
+		"when": "editorTextFocus && editorHasDefinitionProvider",
 	},
 	{
 		"key": "cmd+r",
 		"command": "workbench.action.gotoSymbol",
-		"when": "editorTextFocus",
+		"when": "editorTextFocus && editorHasDefinitionProvider",
 	},
 	{
 		"key": "shift+cmd+g",
