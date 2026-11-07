@@ -46,6 +46,9 @@
 
 	"terminal.integrated.fontFamily": "Monaspace Neon",
 	"terminal.integrated.fontSize": 13,
+	"terminal.integrated.initialHint": false,
+
+	"window.density.layout": "compact",
 
 	"workbench.activityBar.location": "hidden",
 	"workbench.colorTheme": "Dark 2026",
@@ -60,9 +63,6 @@
 	"workbench.secondarySideBar.defaultVisibility": "hidden",
 	"workbench.startupEditor": "newUntitledFile",
 	"workbench.tree.enableStickyScroll": true,
-
-	"window.density.layout": "compact",
-
 
 	"css.format.enable": true,
 	"css.format.newlineBetweenRules": true,
