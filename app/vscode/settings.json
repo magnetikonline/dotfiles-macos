@@ -57,12 +57,11 @@
 	"workbench.editor.pinnedTabsOnSeparateRow": true,
 	"workbench.editor.revealIfOpen": true,
 	"workbench.iconTheme": "material-icon-theme",
-	"workbench.modernUIFrostedGlass": true,
 	"workbench.modernUIFrostedGlassOpacity": 50,
 	"workbench.navigationControl.enabled": false,
 	"workbench.secondarySideBar.defaultVisibility": "hidden",
 	"workbench.startupEditor": "newUntitledFile",
-	"workbench.tree.enableStickyScroll": true,
+
 
 	"css.format.enable": true,
 	"css.format.newlineBetweenRules": true,
